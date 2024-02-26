@@ -56,8 +56,14 @@ body{
 .greetings > span:nth-child(10){
     animation-delay: .9s;
 }
-.greetings > span:nth-child(11){
-    animation-delay: .9s;
+.greetings > span:nth-child(11) {
+  animation-delay: 0.9s;
+}
+.greetings > span:nth-child(12) {
+  animation-delay: 0.9s;
+}
+.greetings > span:nth-child(13) {
+  animation-delay: 0.9s;
 }
 
 .description{
@@ -74,7 +80,7 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 500;
         text-align: center;
     }
